@@ -1,6 +1,6 @@
 for i in range(1000):
-    n1= eval(input("Enter 1st No: "))
-    n2=eval(input("Enter 2nd No: "))
+    n1= eval(input("Enter 1st int: "))
+    n2=eval(input("Enter 2nd int: "))
     key=eval(input("""Enter your Choice:- Press:- 1 to Add, 2 to Substract, 3 to Multiply, 4 to Divide :"""))
     def add(x,y):
         return x+y
