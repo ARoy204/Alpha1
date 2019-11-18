@@ -23,4 +23,5 @@ for i in range(1000):
     if Op=='N':
         continue
     elif Op=='Y':
+        print("Thank you!")
         quit()
