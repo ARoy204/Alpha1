@@ -1,7 +1,7 @@
 for i in range(1000):
     n1= eval(input("Enter 1st No: "))
     n2=eval(input("Enter 2nd No: "))
-    key=eval(input("""Enter your Choice:- Press:- 1 to Add, 2 to Substract, 3 to Multiply, 4 to Divide :"""))
+    key=eval(input("""Enter your Choice:- Press:- 1 to Add, 2 to Substract, 3 to Multiply, 4 to Divide 5 to factorial:"""))
     def add(x,y):
         return x+y
     def sub(x,y):
@@ -10,6 +10,10 @@ for i in range(1000):
         return(x*y)
     def div(x,y):
         return(x/y)
+    def fact(x):
+        while x>0:
+            x=x*(x-1)
+            return x
     print("Your Answer: ")
     if key==1:
         print(add(n1,n2))
